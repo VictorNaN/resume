@@ -42,7 +42,6 @@ a:visited {
 
 .info {
   margin-bottom: 20px;
-  /* display: flex; */
 }
 
 .info-text {
@@ -65,9 +64,11 @@ a:visited {
     display: block;
     text-align: center;
   }
+
   .info-text {
     margin-left: 0px;
   }
+
   .avatar {
     float: none;
     margin-right: 0px;
@@ -79,15 +80,21 @@ a:visited {
   padding: 15px 20px;
   margin-bottom: 20px;
 }
+
 .card h2 {
   margin-bottom: 10px;
 }
+
 .bg-yellow {
   background: #fff9dc;
 }
 
 .bg-red {
   background: #ffe5e5;
+}
+
+.bg-blue {
+  background: #cff3f8;
 }
 
 .bg-green {
@@ -158,6 +165,7 @@ a:visited {
     display: block;
     flex-direction: column;
   }
+
   .form-row .form-group {
     margin-right: 0px;
     width: 100%;
